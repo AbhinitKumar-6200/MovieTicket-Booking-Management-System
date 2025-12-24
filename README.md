@@ -1,7 +1,5 @@
 # MovieTicket-Booking-Management-System
-Technology: Java, OOP, Collections, Low-Level Design
-Designed and developed a Movie Ticket Booking System following low-level design (LLD) principles.
-Implemented core entities such as Movie, Show, Theatre, Seat, Booking, and Payment flow using clean object-oriented design.
-Managed seat availability, booking status, and show scheduling using in-memory data structures.
-Applied SOLID principles, encapsulation, and modular architecture to ensure scalability and maintainability.
-Simulated real-world booking scenarios including seat selection and ticket confirmation.
+The Movie Ticket Booking System is a command-line based Java application designed to simulate a real-world movie booking platform. The project follows a clean, layered architecture using models, DAO, services, and service implementations, ensuring proper separation of concerns and maintainability. The system allows users to browse movies, view available shows, check seat availability, book tickets, and cancel bookings while dynamically managing seat availability and pricing.
+This application uses in-memory data storage to preload realistic movie and show data, eliminating the need for an external database while still demonstrating backend logic effectively. Each movie is associated with multiple shows, and every show maintains a list of seats with different seat types (Regular, Premium, VIP) and corresponding prices. The system automatically updates seat availability during booking and cancellation operations.
+The project demonstrates strong Object-Oriented Programming (OOP) principles, including encapsulation, abstraction, interfaces, and modular design. It also makes effective use of Java Collections, Streams, Enums, and LocalDateTime for handling data and time-based operations. Comprehensive exception handling ensures that invalid inputs, unavailable seats, and incorrect booking operations are handled gracefully.
+Overall, this project serves as a solid example of a Java backend–style application, showcasing how a real ticket booking system works internally and making it suitable for academic submissions, interviews, and portfolio demonstrations.
